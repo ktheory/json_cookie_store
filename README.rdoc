@@ -1,0 +1,3 @@
+= json_cookie_store
+
+A Rails session cookie store that uses JSON to store data rather than Marshaled ruby.
