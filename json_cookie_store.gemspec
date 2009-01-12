@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name     = "json_cookie_store"
-  s.version  = "0.0.1"
-  s.date     = "2008-12-15"
+  s.version  = "0.0.2"
+  s.date     = "2009-01-12"
 
   s.email    = "aaronktheory.com"
   s.authors  = ["Aaron Suggs"]

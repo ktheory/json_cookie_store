@@ -1,7 +1,9 @@
 require 'cgi'
 require 'cgi/session'
 require 'openssl'       # to generate the HMAC message digest
-require 'json'
+# Requiring JSON here causese complications between Rails' json methods
+# and the JSON gem. Not requiring 'json' works. IDK why. --Aaron
+#require 'json'
 
 # This cookie-based session store is the Rails default. Sessions typically
 # contain at most a user_id and flash message; both fit within the 4K cookie
